@@ -18,6 +18,10 @@ function sl_after_setup_theme(){
 
 add_action('after_setup_theme','initializer::setup');
 
+add_action('init','posttypes::make_product_post_type');
+
+
+
 
 
 /*
